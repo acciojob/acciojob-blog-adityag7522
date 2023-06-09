@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.title {
+    width: 100%;
+    text-align: right;
+    animation-name: mover;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
